@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-section {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 {
+    background-image: url('download.jpg'); /* Replace 'parallax1.jpg' with your desired image file for section 1 */
+}
+
+#section3 {
+    background-image: url('download.jpg'); /* Replace 'parallax2.jpg' with your desired image file for section 3 */
+}
+
+.content-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+#section2 {
+    background-image: url('download.jpg'); /* Replace 'parallax3.jpg' with your desired image file for section 2 */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+}
